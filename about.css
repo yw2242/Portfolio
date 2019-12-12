@@ -345,69 +345,6 @@ p {
 
 
 
-.bg-2 {
-  /* The image used */
-  background-image: url("images/20161102_IMG_5143.JPG");
-
-  /* Full height */
-  height: 70%;
-  opacity: 1;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-
-.box-caption {
-  text-align: center;
-}
-
-
-
-.dandd {
-  margin-top: 15%;
-  /* color: #282E34; */
-  color: white;
-  font-family: 'Kranky', cursive;
-  font-size: 55px;
-  font-weight: bolder;
-  display: inline-block;
-  vertical-align: middle;
-  opacity: 1;
-}
-
-
-
-.bg-3 {
-  /* The image used */
-  background-image: url("images/20180611_IMG_8746.JPG");
-
-  /* Full height */
-  height: 65%;
-  opacity: 1;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.smaller-box-caption {
-  height: 20%;
-  color: white;
-  background-color: #251e18;
-  text-align: center;
-  padding: 30px 80px;
-}
-
-
-
 .title {
   font-family: 'Gloria Hallelujah', cursive;
   padding: 100px 70px 0px;
@@ -420,11 +357,6 @@ p {
   margin: 45px 160px 0px;
 }
 
-
-
-/* img {
-  margin-right: 35px;
-} */
 
 
 
