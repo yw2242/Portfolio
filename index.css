@@ -30,14 +30,14 @@
   
   
   .ml12 {
-    font-weight: 200;
-    font-size: 2.1em;
+    font-weight: 300;
+    font-size: 2.5em;
     text-transform: uppercase;
     letter-spacing: 0.5em;
-    color: white;
+    color: gray;
     float: right;
-    margin-right: 265px;
-    margin-top: 300px;
+    margin-right: 14%;
+    margin-top: 23%;
     font-family: 'Source Sans Pro', sans-serif;
   }
   
@@ -52,7 +52,7 @@
   
   .bg-1 {
     /* The image used */
-    background-image: url("images/20181008_IMG_9880\ \(2\).jpg");
+    background-image: url("images/20180605_E562C920-DC53-4F83-9C8E-B5137C1B1BFA.jpg");
   
     /* Full height */
     height: 100%;
@@ -63,73 +63,44 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-  
-  
-  .scroll-down {
-      position: absolute;
-      left: 50%;
-      bottom: 30px;
-      display: block;
-      text-align: center;
-      font-size: 20px;
-      z-index: 100;
-      text-decoration: none;
-      text-shadow: 0;
-    width: 13px;
-    height: 13px;
-    border-bottom: 3px solid #fff;
-    border-right: 3px solid #fff;
-    z-index: 9;
-    left: 50%;
-    -webkit-transform: translate(-50%, 0%) rotate(45deg);
-    -moz-transform: translate(-50%, 0%) rotate(45deg);
-    transform: translate(-50%, 0%) rotate(45deg);
-      -webkit-animation: fade_move_down 2s ease-in-out infinite;
-      -moz-animation:    fade_move_down 2s ease-in-out infinite;
-      animation:         fade_move_down 2s ease-in-out infinite;
-  }
-  
-  
-  /*animated scroll arrow animation*/
-  @-webkit-keyframes fade_move_down {
-    0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
-  }
-  @-moz-keyframes fade_move_down {
-    0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
-  }
-  @keyframes fade_move_down {
-    0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
-  }
 
 
 
+/* Hambuger Nav */
 
-
-  /* Hambuger Nav */
-
-a {
+.nav-list {
   text-decoration: none;
-  color: white;
+  color: gray;
   
   transition: color 0.3s ease;
 }
 
-a:hover {
-  color: #ffb657;
+
+
+.nav-list:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
 }
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+
+
 
 #menuToggle {
   display: block;
   position: fixed;
-  top: 50px;
-  right: 50px;
+  top: 5%;
+  right: 5%;
   
   z-index: 1;
   
@@ -162,7 +133,7 @@ a:hover {
   margin-bottom: 5px;
   position: relative;
   
-  background: white;
+  background: gray;
   border-radius: 3px;
   
   z-index: 1;
@@ -189,7 +160,7 @@ a:hover {
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: white;
+  background: gray;
 }
 
 /*
@@ -214,14 +185,13 @@ a:hover {
  */
 #menu {
   position: absolute;
-  width: 150px;
-  margin: -50px 0 0 0;
+  width: 520px;
+  margin: -100px 0 0 0;
   padding: 50px;
-  padding-top: 70px;
+  padding-top: 65px;
   right: -100px;
   border-radius: 18px;
   
-  background: #334f759c;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -234,8 +204,10 @@ a:hover {
 
 #menu li {
   padding: 10px 0;
+  margin: 20px;
   font-size: 22px;
   font-family: 'Caveat', cursive, Arial, Helvetica, sans-serif;
+  display: inline;
 }
 
 /*

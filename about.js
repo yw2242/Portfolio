@@ -41,3 +41,7 @@ anime.timeline({})
     easing: "easeOutExpo",
     delay: 1000
   });
+
+
+
+  
