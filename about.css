@@ -12,7 +12,7 @@ html, body {
 
 
 body {
-  background: url(images/20180607_IMG_6057.JPG) no-repeat center fixed;
+  background: url(images/20180621_IMG_7156.JPG) no-repeat center fixed;
   background-size: cover;
 }
 
@@ -28,7 +28,7 @@ header {
   font-size: 68px;
   margin: 5% 10% 5%;
   font-family: 'Amatic SC', cursive, Arial, Helvetica, sans-serif;
-  color: oldlace;
+  color: gray;
 }
 
 
@@ -52,7 +52,7 @@ header {
   margin: auto;
   height: 0.5px;
   width: 100%;
-  background-color: oldlace;
+  background-color: gray;
   /* transform-origin: 0.5 0; */
 }
 
@@ -80,7 +80,7 @@ header {
 
 a {
   text-decoration: none;
-  color: oldlace;
+  color: gray;
   
   transition: color 0.3s ease;
 }
@@ -139,7 +139,7 @@ a:hover {
   margin-bottom: 5px;
   position: relative;
   
-  background: oldlace;
+  background: gray;
   border-radius: 3px;
   
   z-index: 1;
@@ -166,7 +166,7 @@ a:hover {
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: oldlace;
+  background: gray;
 }
 
 /*
@@ -294,18 +294,18 @@ ul a {
 
 
 #wrapper {
-    width: 45%;
+    width: 42%;
     margin: 0% auto;
     margin-left: 5%;
     padding: 45px 35px;
-    background: #98a47c3b;
+    background: #8da4b245;
     border-radius: 35px;
 }
 
 
 
 p {
-    color: oldlace;
+    color: black;
     font-family: 'Caveat', cursive, Arial, Helvetica, sans-serif;
     font-size: 25px;
     letter-spacing: 1px;
