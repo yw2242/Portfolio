@@ -36,7 +36,7 @@
     letter-spacing: 0.5em;
     color: gray;
     float: right;
-    margin-right: 14%;
+    margin-right: 23%;
     margin-top: 23%;
     font-family: 'Source Sans Pro', sans-serif;
   }
@@ -52,7 +52,7 @@
   
   .bg-1 {
     /* The image used */
-    background-image: url("images/20180605_E562C920-DC53-4F83-9C8E-B5137C1B1BFA.jpg");
+    background-image: url("images/20180604_7622C77A-00DB-462D-827C-A349045C4AE7.jpg");
   
     /* Full height */
     height: 100%;
@@ -73,6 +73,16 @@
   color: gray;
   
   transition: color 0.3s ease;
+
+  border-radius: 50%;
+  width: 27vw;
+  height: 23vw;
+  top: -10vw;
+  right: -10vw;
+  position: absolute;
+  transition: all 1s ease-in-out;
+  background: #8080801c;
+  /* box-shadow: 0 0px 0px rgba(4, 26, 62, 0.5); */
 }
 
 

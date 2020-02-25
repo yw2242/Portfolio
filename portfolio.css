@@ -227,7 +227,44 @@ a:hover {
 
 /* Nav ended */
 
+#zero {
+    background-color: white;
+    height: 70%;
 
+}
+
+
+#one {
+    background-color: #b87863;
+    height: 70%;
+
+}
+
+
+#two {
+    background-color: #e7c69a;
+    height: 70%;
+}
+
+
+#three {
+    background-color: #e8dfd0;
+    height: 70%;
+
+}
+
+
+#four {
+    background-color: #867b77;
+    height: 70%;
+
+}
+
+
+#five {
+    background-color: #deb391;
+    height: 70%;
+}
 
 
 .bg-2 {
