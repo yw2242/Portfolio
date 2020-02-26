@@ -191,7 +191,7 @@ header {
 */
 #menu {
     position: absolute;
-    width: 520px;
+    width: 400px;
     margin: -100px 0 0 0;
     padding: 50px;
     padding-top: 65px;
@@ -265,9 +265,6 @@ header {
     background-color: #deb391;
     height: 70%;
 }
-
-
-
 
 
 

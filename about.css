@@ -359,24 +359,6 @@ p {
 
 
 
-
-.bg-5 {
-  /* The image used */
-  background-image: url("images/20180326_FullSizeRender.jpg");
-
-  /* Full height */
-  height: 100%;
-  /* opacity: 0.85; */
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-
 #footer {
   position: relative;
   color: seashell;
