@@ -73,16 +73,6 @@
   color: gray;
   
   transition: color 0.3s ease;
-
-  border-radius: 50%;
-  width: 27vw;
-  height: 23vw;
-  top: -10vw;
-  right: -10vw;
-  position: absolute;
-  transition: all 1s ease-in-out;
-  background: #8080801c;
-  /* box-shadow: 0 0px 0px rgba(4, 26, 62, 0.5); */
 }
 
 
@@ -195,7 +185,7 @@
  */
 #menu {
   position: absolute;
-  width: 520px;
+  width: 400px;
   margin: -100px 0 0 0;
   padding: 50px;
   padding-top: 65px;

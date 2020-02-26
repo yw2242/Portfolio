@@ -78,14 +78,14 @@ header {
 
 /* Hambuger Nav */
 
-a {
+.nav-list {
     text-decoration: none;
-    color: oldlace;
+    color: gray;
 
     transition: color 0.3s ease;
 }
 
-a:hover {
+.nav-list:hover {
     -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
     -webkit-mask-size: 200%;
     animation: shine 2s infinite;
@@ -139,7 +139,7 @@ a:hover {
     margin-bottom: 5px;
     position: relative;
 
-    background: oldlace;
+    background: gray;
     border-radius: 3px;
 
     z-index: 1;
@@ -166,7 +166,7 @@ a:hover {
     #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: oldlace;
+    background: gray;
 }
 
 /*
@@ -267,43 +267,7 @@ a:hover {
 }
 
 
-.bg-2 {
-    /* The image used */
-    background-image: url("images/20161102_IMG_5143.JPG");
 
-    /* Full height */
-    height: 70%;
-    opacity: 1;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-
-
-
-    .box-cap-left {
-    text-align: left;
-}
-
-
-
-.bg-3 {
-    /* The image used */
-    background-image: url("images/20180611_IMG_8746.JPG");
-
-    /* Full height */
-    height: 65%;
-    opacity: 1;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 
