@@ -235,10 +235,15 @@ header {
 }
 
 
-#six {
-    background-color: #b87863;
+#seven {
+    background-color: #e4cab4;
     height: 70%;
+}
 
+
+#six {
+    background-color: #cf9a80;
+    height: 70%;
 }
 
 
@@ -256,20 +261,20 @@ header {
 
 
 #three {
-    background-color: #867b77;
+    background-color: #c7b1a5;
     height: 70%;
 
 }
 
 
 #two {
-    background-color: #e7c69a;
+    background-color: #eee8e2;
     height: 70%;
 }
 
 
 #one {
-    background-color: #6c8161;
+    background-color: #79a377b8;
     height: 70%;
 }
 
