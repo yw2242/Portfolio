@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 
 
@@ -163,7 +164,7 @@ header {
 * Transform all the slices of hamburger
 * into a crossmark.
 */
-    #menuToggle input:checked ~ span {
+#menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: gray;
@@ -172,7 +173,7 @@ header {
 /*
 * But let's hide the middle one.
 */
-    #menuToggle input:checked ~ span:nth-last-child(3) {
+#menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
@@ -234,8 +235,28 @@ header {
 }
 
 
-#one {
+#six {
     background-color: #b87863;
+    height: 70%;
+
+}
+
+
+#five {
+    background-color: #deb391;
+    height: 70%;
+}
+
+
+#four {
+    background-color: #e8dfd0;
+    height: 70%;
+
+}
+
+
+#three {
+    background-color: #867b77;
     height: 70%;
 
 }
@@ -247,25 +268,49 @@ header {
 }
 
 
-#three {
-    background-color: #e8dfd0;
-    height: 70%;
-
-}
-
-
-#four {
-    background-color: #867b77;
-    height: 70%;
-
-}
-
-
-#five {
-    background-color: #deb391;
+#one {
+    background-color: #6c8161;
     height: 70%;
 }
 
+
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 35%;
+}
+
+
+p {
+    font-size: 20px;
+    margin: 0 12%;
+    margin-top: 17%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.column {
+    float: left;
+}
+
+
+.column.pic {
+    margin-left: 12.5%;
+    width: 25%;
+}
+
+
+.column.content {
+    margin-right: 10%;
+    width: 52.5%;
+}
 
 
 #footer {
