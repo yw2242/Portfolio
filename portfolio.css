@@ -230,52 +230,52 @@ header {
 
 #zero {
     background-color: white;
-    height: 70%;
+    height: 80%;
 
 }
 
 
 #seven {
-    background-color: #e4cab4;
-    height: 70%;
+    background-color: #f6ae60;
+    height: 80%;
 }
 
 
 #six {
-    background-color: #cf9a80;
-    height: 70%;
+    background-color: #de8670;
+    height: 80%;
 }
 
 
 #five {
-    background-color: #deb391;
-    height: 70%;
+    background-color: #98679e;
+    height: 80%;
 }
 
 
 #four {
-    background-color: #eee8e2;
-    height: 70%;
+    background-color: #f8c687;
+    height: 80%;
 
 }
 
 
 #three {
-    background-color: #c7b1a5;
-    height: 70%;
+    background-color: #21364b;
+    height: 80%;
 
 }
 
 
 #two {
-    background-color: #e8dfd0;
-    height: 70%;
+    background-color: #e29470;
+    height: 80%;
 }
 
 
 #one {
-    background-color: #b7c3b7;
-    height: 70%;
+    background-color: #679895;
+    height: 80%;
 }
 
 
@@ -291,6 +291,9 @@ p {
     font-size: 20px;
     margin: 0 12%;
     margin-top: 17%;
+    color: white;
+    font-family: "Cormorant Garamond";
+    font-size: 23px;
 }
 
 
