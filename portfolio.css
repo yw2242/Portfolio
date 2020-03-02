@@ -253,17 +253,19 @@ button:hover {
 
 
 .title {
-    
+    font-size: 27px;
+    margin: 0 5%;
+    margin-top: 17%;
+    color: white;
 }
 
 
 p {
-    font-size: 20px;
-    margin: 0 12%;
-    margin-top: 17%;
+    margin: 0 5%;
+    margin-top: 0%;
     color: white;
     font-family: "Kalam";
-    font-size: 25px;
+    font-size: 23px;
 }
 
 
