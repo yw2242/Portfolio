@@ -8,8 +8,8 @@
 
     <link rel="stylesheet" href="portfolio.css">
     <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -18,23 +18,23 @@
 </head>
 <body>
     <header>
-    <nav role='navigation'>
-        <div id="menuToggle">
+        <nav role='navigation'>
+            <div id="menuToggle">
 
-            <input type="checkbox" />
+                <input type="checkbox" />
 
-            <span></span>
-            <span></span>
-            <span></span>
-            
-            <ul id="menu">
-                <a class="nav-list" href="index.html"><li>Home</li></a>
-                <a class="nav-list" href="about.html"><li>About</li></a>
-                <a class="nav-list" href="portfolio.html"><li>Portfolio</li></a>
-                <!-- <a href="gallery.html"><li>Gallery</li></a> -->
-            </ul>
-        </div>
-    </nav>
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <ul id="menu">
+                    <a class="nav-list" href="index.html"><li>Home</li></a>
+                    <a class="nav-list" href="about.html"><li>About</li></a>
+                    <a class="nav-list" href="portfolio.html"><li>Portfolio</li></a>
+                    <!-- <a href="gallery.html"><li>Gallery</li></a> -->
+                </ul>
+            </div>
+        </nav>
     </header>
 
         <div id="zero">
@@ -46,10 +46,10 @@
                 <img class="center" src="images/assurant dds.gif" alt="Assurant Digital Design System">
             </div>
             <div class="column content">
-                <p><strong>Assurant - Digital Design System</strong><br>
-                    <em>( Capstone Project at Cornell University )</em><br>
+                <p class="title"><strong>Assurant - Digital Design System</strong><br>
+                    <em>( Capstone Project at Cornell University )</em></p><br>
                 <br>
-                • Programmed code snippets (HTML, CSS & JavaScript) of UI design components for the Digital Design System leveraged by developers<br>
+                <p>• Programmed code snippets (HTML, CSS & JavaScript) of UI design components for the Digital Design System leveraged by developers<br>
                 • Communicated with designers and performed project scope & risk analysis<br>
                 • Participated in a poster session to showcase the design works</p>
             </div>
@@ -57,12 +57,13 @@
 
         <div class="row" id="six">
             <div class="column pic">
-                <img class="center" src="images/bis.PNG" alt="Cornell BioTech">
+                <img class="center" src="images/bis.PNG" alt="Cornell BioTech"><br>
+                <button id="bt" onclick="window.location.href='https://cornell.digication.com/biotech08/home-1';" type="button">Launch</button>
             </div>
             <div class="column content">
-                <p><strong>Created visualizations for ﬁnancial data to analyze the operations at Cornell Biotechnology Resource Center (BRC)</strong><br>
+                <p class="title"><strong>Created visualizations for ﬁnancial data to analyze the operations at Cornell Biotechnology Resource Center (BRC)</strong></p><br>
                 <br>
-                • Applied analytical skills to establish a data dictionary in Tableau software</p>
+                <p>• Applied analytical skills to establish a data dictionary in Tableau software</p>
             </div>
 
         </div>
@@ -72,45 +73,48 @@
                 <img class="center" src="images/dashboard.gif" alt="Dashboard">
             </div>
             <div class="column content">
-                <p><strong>An R-Shiny system with intuitive UI elements for educators to analyze class performance</strong><br>
+                <p class="title"><strong>An R-Shiny system with intuitive UI elements for educators to analyze class performance</strong></p><br>
                 <br>
-                • Sketched up an UI layout and built the system with R-Shiny and HTML</p>
+                <p>• Sketched up an UI layout and built the system with R-Shiny and HTML</p>
             </div>
 
         </div>
 
         <div class="row" id="four">
             <div class="column pic">
-                <img class="center" src="images/plantpal.gif" alt="PlantPal">
+                <img class="center" src="images/plantpal.gif" alt="PlantPal"><br>
+                <button id="pp" onclick="window.location.href='https://myplantpal.herokuapp.com/';" type="button">Launch</button>
             </div>
             <div class="column content">
-                <p><strong>Developed a virtual gardening assistant application</strong><br>
+                <p class="title"><strong>Developed a virtual gardening assistant application</strong></p><br>
                 <br>
-                • Front-end design ownership and utilized React.js to build pop-up modals for each plant</p>
+                <p>• Front-end design ownership and utilized React.js to build pop-up modals for each plant</p>
             </div>
 
         </div>
 
         <div class="row" id="three">
             <div class="column pic">
-                <img class="center" src="images/cinememes.gif" alt="CineMemes">
+                <img class="center" src="images/cinememes.gif" alt="CineMemes"><br>
+                <button id="cm" onclick="window.location.href='https://myplantpal.herokuapp.com/';" type="button">Launch</button>
             </div>
             <div class="column content">
-                <p><strong>Built an integrated platform that provided movie information and housed a discussion forum for viewers</strong><br>
+                <p class="title"><strong>Built an integrated platform that provided movie information and housed a discussion forum for viewers</strong></p><br>
                 <br>
-                • Researched and utilized APIs to display web contents</p>
+                <p>• Researched and utilized APIs to display web contents</p>
             </div>
 
         </div>
 
         <div class="row" id="two">
             <div class="column pic">
-                <img class="center" src="images/mealshare.gif" alt="MealShare">
+                <img class="center" src="images/mealshare.gif" alt="MealShare"><br>
+                <button id="ms" onclick="window.location.href='https://meal-share-app.herokuapp.com/';" type="button">Launch</button>
             </div>
             <div class="column content">
-                <p><strong>Created a food-sharing application to reduce food waste</strong><br>
+                <p class="title"><strong>Created a food-sharing application to reduce food waste</strong></p><br>
                 <br>
-                • Designed and implemented a website that populated its content from a MySQL database<br>
+                <p>• Designed and implemented a website that populated its content from a MySQL database<br>
                 • Created a sub-system to handle user account validation</p>
             </div>
 
@@ -121,9 +125,9 @@
                 <img class="center" src="images/HCI Poster.PNG" alt="HCI poster">
             </div>
             <div class="column content">
-                <p><strong>Designed a team management application for students to find teammates faster and collaborate easily</strong><br>
+                <p class="title"><strong>Designed a team management application for students to find teammates faster and collaborate easily</strong></p><br>
                 <br>
-                • Conducted user interviews and collected usability feedbacks to refine the design for the application<br>
+                <p>• Conducted user interviews and collected usability feedbacks to refine the design for the application<br>
                 • Created affinity diagrams and analyzed user data to further improve the application<br>
                 • Built applications prototypes under various levels of fidelity (low, mid and high)</p>
             </div>
