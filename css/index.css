@@ -50,58 +50,6 @@ ul a {
 
 
 
-.ml5 {
-  font-size: 68px;
-  margin: 5% 15% 5%;
-  font-family: 'Amatic SC', cursive, Arial, Helvetica, sans-serif;
-  color: gray;
-}
-
-
-
-.ml5 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.1em;
-  padding-right: 0.05em;
-  padding-bottom: 0.15em;
-  line-height: 1em;
-}
-
-
-
-.ml5 .line {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  height: 0.5px;
-  width: 100%;
-  background-color: gray;
-  /* transform-origin: 0.5 0; */
-}
-
-
-
-.ml5 .ampersand {
-  font-family: Baskerville, "EB Garamond", serif;
-  font-style: italic;
-  font-weight: 400;
-  width: 1em;
-  margin-right: -0.1em;
-  margin-left: -0.1em;
-}
-
-
-
-.ml5 .letters {
-  display: inline-block;
-  opacity: 0;
-}
-
-
-
 .bg-1 {
   /* The image used */
   background-image: url("../images/20180604_7622C77A-00DB-462D-827C-A349045C4AE7.jpg");
