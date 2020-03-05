@@ -42,7 +42,7 @@
 
         <div class="row" id="seven">
             <div class="column pic">
-                <img class="center" src="images/assurant dds.gif" alt="Assurant Digital Design System">
+                <img class="center" src="images/assurant dds.gif" alt="Assurant Digital Design System" onclick="document.getElementById('modal7').style.display='block'">
             </div>
             <div class="column content">
                 <p class="title"><strong>Assurant - Digital Design System</strong><br>
@@ -56,7 +56,7 @@
 
         <div class="row" id="six">
             <div class="column pic">
-                <img class="center" src="images/bis.PNG" alt="Cornell BioTech"><br>
+                <img class="center" src="images/bis.PNG" alt="Cornell BioTech" onclick="document.getElementById('modal6').style.display='block'"><br>
                 <button id="bt" onclick="window.open('https://cornell.digication.com/biotech08/home-1')" type="button">Launch</button>
             </div>
             <div class="column content">
@@ -69,7 +69,7 @@
 
         <div class="row" id="five">
             <div class="column pic">
-                <img class="center" src="images/dashboard.gif" alt="Dashboard">
+                <img class="center" src="images/dashboard.gif" alt="Dashboard" onclick="document.getElementById('modal5').style.display='block'">
             </div>
             <div class="column content">
                 <p class="title"><strong>An R-Shiny system with intuitive UI elements for educators to analyze class performance</strong></p><br>
@@ -81,7 +81,7 @@
 
         <div class="row" id="four">
             <div class="column pic">
-                <img class="center" src="images/plantpal.gif" alt="PlantPal"><br>
+                <img class="center" src="images/plantpal.gif" alt="PlantPal" onclick="document.getElementById('modal4').style.display='block'"><br>
                 <button id="pp" onclick="window.open('https://myplantpal.herokuapp.com/')" type="button">Launch</button>
             </div>
             <div class="column content">
@@ -94,7 +94,7 @@
 
         <div class="row" id="three">
             <div class="column pic">
-                <img class="center" src="images/cinememes.gif" alt="CineMemes"><br>
+                <img class="center" src="images/cinememes.gif" alt="CineMemes" onclick="document.getElementById('modal3').style.display='block'"><br>
                 <button id="cm" onclick="window.open('https://yw2242.github.io/GroupProject1/')" type="button">Launch</button>
             </div>
             <div class="column content">
@@ -107,7 +107,7 @@
 
         <div class="row" id="two">
             <div class="column pic">
-                <img class="center" src="images/mealshare.gif" alt="MealShare"><br>
+                <img class="center" src="images/mealshare.gif" alt="MealShare" onclick="document.getElementById('modal2').style.display='block'"><br>
                 <button id="ms" onclick="window.open('https://meal-share-app.herokuapp.com/')" type="button">Launch</button>
             </div>
             <div class="column content">
@@ -121,7 +121,13 @@
 
         <div class="row" id="one">
             <div class="column pic">
-                <img class="center" src="images/HCI Poster.PNG" alt="HCI poster">
+                <img class="center" src="images/HCI Poster.PNG" alt="HCI poster" onclick="document.getElementById('modal1').style.display='block'">
+                <div id="modal1" class="modal" onclick="this.style.display='none'">
+                    <span class="modal-button modal-hover modal-large">&times;</span>
+                    <div class="modal-content animate-zoom">
+                    <img src="images/HCI Poster.PNG" style="width:100%">
+                    </div>
+                </div>
             </div>
             <div class="column content">
                 <p class="title"><strong>Designed a team management application for students to find teammates faster and collaborate easily</strong></p><br>
