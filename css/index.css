@@ -50,7 +50,7 @@ ul a {
 
 
 
-.bg-1 {
+.bg {
   /* The image used */
   background-image: url("../images/20180604_7622C77A-00DB-462D-827C-A349045C4AE7.jpg");
 
@@ -241,15 +241,13 @@ ul a {
 	display: block;
 	text-align: center;
 	font-size: 20px;
-	z-index: 100;
+	z-index: 1;
 	text-decoration: none;
 	text-shadow: 0;
   width: 14px;
   height: 14px;
   border-bottom: 3px solid #fff;
   border-right: 3px solid #fff;
-  z-index: 9;
-  left: 50%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
   -moz-transform: translate(-50%, 0%) rotate(45deg);
   transform: translate(-50%, 0%) rotate(45deg);
@@ -281,7 +279,7 @@ ul a {
 
 #container {
   min-height: 100%;
-  margin-bottom: 30px;
+  width: 100%;
 }
 
 
@@ -373,12 +371,6 @@ p {
   -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
   -webkit-mask-size: 200%;
   animation: shine 2s infinite;
-}
-
-
-
-.contact-logos {
-  margin: 45px 160px 0px;
 }
 
 
