@@ -32,14 +32,12 @@ ul a {
 .ml12 {
   font-weight: 300;
   font-size: 2.5em;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
   color: gray;
   float: right;
   margin-right: 23%;
   margin-top: 23%;
   font-family: 'Bellota', cursive;
-  font-weight: 300;
 }
 
 
@@ -355,6 +353,41 @@ ul a {
   top: 322%;
   width: 45%;
   z-index: 1;
+  position: absolute;
+}
+
+
+#intro-4 {
+  margin: 5% 20%;
+  top: 420%;
+  z-index: 1;
+  position: absolute;
+  background-image: url(images/20180326_FullSizeRender.jpg);
+  height: 100%;
+}
+
+
+#connect {
+  font-family: 'Bellota', cursive;
+  font-size: 35px;
+  color: gray;
+}
+
+
+#intro-4-img-1 {
+  width: 24%;
+  opacity: 1;
+  z-index: 2;
+  margin: 10% 15% 30%;
+  position: absolute;
+}
+
+
+#intro-4-img-2 {
+  width: 20%;
+  opacity: 1;
+  z-index: 2;
+  margin: 12% 45% 30%;
   position: absolute;
 }
 
