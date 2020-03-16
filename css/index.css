@@ -358,12 +358,12 @@ ul a {
 
 
 #intro-4 {
-  margin: 5% 20%;
   top: 420%;
   z-index: 1;
   position: absolute;
   background-image: url("../images/20180326_FullSizeRender.jpg");
   height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -371,6 +371,7 @@ ul a {
 
 
 #connect {
+  margin: 5% 12%;
   font-family: 'Bellota', cursive;
   font-size: 35px;
   color: gray;
@@ -378,21 +379,21 @@ ul a {
 
 
 #intro-4-img-1 {
-  width: 12%;
+  width: 9%;
   top: 430%;
   opacity: 1;
   z-index: 2;
-  margin: 7% 20% 30%;
+  margin: 7% 16% 30%;
   position: absolute;
 }
 
 
 #intro-4-img-2 {
-  width: 10%;
-  top: 430%;
+  width: 8%;
+  top: 429%;
   opacity: 1;
   z-index: 2;
-  margin: 8% 35% 30%;
+  margin: 8% 28% 30%;
   position: absolute;
 }
 
