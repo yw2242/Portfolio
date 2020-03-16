@@ -184,7 +184,7 @@ ul a {
  */
 #menu {
   position: absolute;
-  width: 400px;
+  width: 470px;
   margin: -100px 0 0 0;
   padding: 50px;
   padding-top: 65px;
@@ -203,9 +203,9 @@ ul a {
 
 #menu li {
   padding: 10px 0;
-  margin: 20px;
+  margin: 22px;
   font-size: 22px;
-  font-family: 'Caveat', cursive, Arial, Helvetica, sans-serif;
+  font-family: 'Bellota Text', cursive;
   display: inline;
 }
 
@@ -362,8 +362,11 @@ ul a {
   top: 420%;
   z-index: 1;
   position: absolute;
-  background-image: url(images/20180326_FullSizeRender.jpg);
+  background-image: url("../images/20180326_FullSizeRender.jpg");
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -375,19 +378,21 @@ ul a {
 
 
 #intro-4-img-1 {
-  width: 24%;
+  width: 12%;
+  top: 430%;
   opacity: 1;
   z-index: 2;
-  margin: 10% 15% 30%;
+  margin: 7% 20% 30%;
   position: absolute;
 }
 
 
 #intro-4-img-2 {
-  width: 20%;
+  width: 10%;
+  top: 430%;
   opacity: 1;
   z-index: 2;
-  margin: 12% 45% 30%;
+  margin: 8% 35% 30%;
   position: absolute;
 }
 
