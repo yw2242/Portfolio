@@ -106,11 +106,11 @@ header {
 #menuToggle {
     display: block;
     position: fixed;
-    top: 50px;
-    right: 50px;
-
-    z-index: 1;
-
+    top: 5%;
+    right: 5%;
+    
+    z-index: 3;
+    
     -webkit-user-select: none;
     user-select: none;
 }
@@ -192,7 +192,7 @@ header {
 */
 #menu {
     position: absolute;
-    width: 400px;
+    width: 470px;
     margin: -100px 0 0 0;
     padding: 50px;
     padding-top: 65px;
@@ -211,9 +211,9 @@ header {
 
 #menu li {
     padding: 10px 0;
-    margin: 20px;
+    margin: 22px;
     font-size: 22px;
-    font-family: 'Caveat', cursive, Arial, Helvetica, sans-serif;
+    font-family: 'Bellota Text', cursive;
     display: inline;
 }
 
