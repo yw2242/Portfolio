@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$( window ).on( "load", function() {
   
   const bg = document.querySelector(".bg");
   console.log("here");
@@ -6,7 +6,6 @@ $( document ).ready(function() {
   const tl = new TimelineMax();
 
   tl.fromTo(bg, 1.5, { height: "0%" }, { height: "100%", ease: Power2.easeInOut });
-
 
 
   // Wrap every letter in a span
@@ -35,6 +34,7 @@ $( document ).ready(function() {
       return 900 + 30 * i;
     }
     });
+    
 
 });
 
