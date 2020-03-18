@@ -1,11 +1,11 @@
 $( window ).on( "load", function() {
   
-  const bg = document.querySelector(".bg");
-  console.log("here");
+  // const bg = document.querySelector(".bg");
+  // console.log("here");
 
-  const tl = new TimelineMax();
+  // const tl = new TimelineMax();
 
-  tl.fromTo(bg, 1.5, { height: "0%" }, { height: "100%", ease: Power2.easeInOut });
+  // tl.fromTo(bg, 1.5, { height: "0%" }, { height: "100%", ease: Power2.easeInOut });
 
 
   // Wrap every letter in a span
@@ -22,7 +22,7 @@ $( window ).on( "load", function() {
     easing: "easeOutExpo",
     duration: 2500,
     delay: function(el, i) {
-      return 1500 + 30 * i;
+      return 500 + 30 * i;
     }
     }).add({
     targets: '.ml12 .letter',

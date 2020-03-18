@@ -53,6 +53,8 @@ ul a {
   /* The image used */
   background-image: url("../images/20180604_7622C77A-00DB-462D-827C-A349045C4AE7.jpg");
 
+  height: 100%;
+  
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
