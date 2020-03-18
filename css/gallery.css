@@ -225,7 +225,7 @@ header {
 .album {
     width: auto;
     height: 80%;
-    margin: 1% 2%;
+    margin: 1% 0;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -234,12 +234,60 @@ header {
 }
 
 
-.locations{
+.boxes {
     border: 1px solid white;
     display: inline-block;
-    padding: 1.5% 4%;
+    padding: 1.5% 3.5%;
+    border-radius: 2px;
+}
+
+
+.locations {
     color: white;
     text-align: center;
+    font-family: 'Bellota Text';
+    letter-spacing: 1.5px;
+}
+
+
+.boxes-b {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 1.5% 3.5%;
+    border-radius: 2px;
+}
+
+
+.locations-b {
+    color: black;
+    text-align: center;
+    font-family: 'Bellota Text';
+    letter-spacing: 1.5px;
+}
+
+
+.boxes:hover {
+    background-color: white;
+    opacity: 0.6;
+    
+}
+
+
+.boxes:hover .locations {
+    color: rgba(0,0,0,.5);
+    font-weight: 900;
+}
+
+
+.boxes-b:hover {
+    background-color: black;
+    opacity: 0.4;
+}
+
+
+.boxes-b:hover .locations-b {
+    color: white;
+    font-weight: 900;
 }
 
 
