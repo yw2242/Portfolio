@@ -261,11 +261,16 @@ button:hover {
 }
 
 
+em {
+    font-size: 15px;
+}
+
+
 p {
     margin: 0 8%;
     color: white;
     font-family: 'Quicksand', sans-serif;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 
@@ -288,15 +293,15 @@ p {
 
 
 .column.content {
-    margin-right: 10%;
-    width: 47.5%;
+    margin-right: 5%;
+    width: 52.5%;
 }
 
 
 .modal {
     z-index: 3;
     display: none;
-    padding-top: 100px;
+    padding-top: 7%;
     position: fixed;
     left: 0;
     top: 0;
