@@ -185,7 +185,7 @@ header {
 
 #seven {
     background-color: #f6ae60;
-    height: 80%;
+    height: 100%;
 }
 
 
@@ -258,6 +258,7 @@ button:hover {
     margin: 0 8%;
     margin-top: 17%;
     color: white;
+    line-height: 1em;
 }
 
 
@@ -271,6 +272,7 @@ p {
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+    line-height: 1.5em;
 }
 
 

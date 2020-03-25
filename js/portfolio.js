@@ -1,5 +1,14 @@
 $(document).ready(function() {
 
+
+    const zero = document.querySelector("#zero");
+    console.log("here");
+
+    const tl = new TimelineMax();
+
+    tl.fromTo(bg, 1.5, { height: "0%" }, { height: "100%", ease: Power2.easeInOut });
+
+
     // Get the modal
     var modal1 = document.getElementById('modal1');
 
