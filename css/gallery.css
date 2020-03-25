@@ -222,6 +222,16 @@ header {
 /* Nav ended */
 
 
+#top {
+    margin-top: 0;
+}
+
+
+#last {
+    margin-bottom: 0;
+}
+
+
 .album {
     width: auto;
     height: 80%;
