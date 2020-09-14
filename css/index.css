@@ -4,28 +4,35 @@
 }
 
 
-
-html, body {
+/* html, body {
   height: 100%;
-}
-
+} */
 
 
 header {
   display: flex;
+  height: 100px;
 }
 
 
 #logo {
-  width: 6%;
-  margin: 1.5% 2.5%; 
+  height: 50%;
+  margin: 2% 1.5% 1% 4%; 
+}
+
+
+#logo-text {
+  font-family: 'Sacramento', cursive;
+  margin-top: 2.5%;
+  color: #62a6da;;
 }
 
 
 nav {
-  display: inline;
+  display: inline-block;
+  width: 78%;
+  margin-top: 1%;
 }
-
 
 
 ul a {
@@ -33,3 +40,9 @@ ul a {
 }
 
 
+li {
+  float: right;
+  list-style-type: none;
+  display: inline;
+  margin: 2.5%;
+}
