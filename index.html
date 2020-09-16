@@ -6,111 +6,77 @@
     <title>Portfolio | Megan Wu</title>
 
     <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
-
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap" rel="stylesheet"> 
     <!-- jQuery & Other Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-    <link rel="icon" type="image/png" href="images/MW-logo.PNG">
+    <link rel="icon" type="image/png" href="images/MW-logo5.PNG">
 
 </head>
 <body>
 
 
-    <header>
-        <nav>
+    <div id="nav" class="container">
+        <div id="nav-logo">
             <a href="index.html">
-                <img id="logo" src="images/MW-logo.PNG" alt="LOGO";/>
-                <h2 id="logo-text">Megan Wu</h2>
+                <img id="logo" src="images/MW-logo5.PNG" alt="LOGO"/><h1 id="logo-text">Megan Wu</h1>
             </a>
-
-            <div id="menuToggle">
-
-                <input type="checkbox" />
-
-                <span></span>
-                <span></span>
-                <span></span>
-    
-            <ul id="menu">
-                <a class="nav-list" href="index.html"><li>Portfolio</li></a>
-                <a class="nav-list" href="bio.html"><li>Bio</li></a>
-                <a class="nav-list" href="gallery.html"><li>Gallery</li></a>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- <div class="bg">
-
-    <header>
-        <nav role='navigation'>
-            <div id="menuToggle">
-
-                <input type="checkbox" />
-
-                <span></span>
-                <span></span>
-                <span></span>
-
-        <ul id="menu">
-            <a class="nav-list" id="home" href="index.html"><li>Home</li></a>
-            <a class="nav-list" id="portfolio" href="portfolio.html"><li>Portfolio</li></a>
-            <a class="nav-list" href="gallery.html"><li>Gallery</li></a>
-        </ul>
-
-    </header>
-
-
-        <div class="box-caption">
-            <span class="ml12">Megan&nbsp&nbspWu</span>
         </div>
-
-        <div class="scroll-down"></div>
-
-    </div>
-    
-
-    
-
-    <div id="container">    
-        <div id="intro-1" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
-            <p>Hello, my name is Megan!<br>
-                Currently living in Austin, TX.
-            </p>
+        <div class="empty"></div>
+        <div id="nav-menu">
+            <div id="menu">
+                <a class="nav-list" href="index.html">Portfolio</a>
+                <a class="nav-list" href="bio.html">Bio</a>
+                <a class="nav-list" href="gallery.html">Gallery</a>
+            </div>
         </div>
-        <img id="intro-1-img" src="images/20190517_IMG_4971.jpg" alt="TX flag" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine"/>
-
-        <img id="intro-2-img" src="images/IMG_0988.JPG" alt="cornell grad" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine"/>
-        <div id="intro-2" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
-            <p>I graduated from <span class="highlight">Cornell University</span> with a Master's degree of <span class="highlight">Information Science</span> that specialized in UI/UX & front-end development.<br>
-            </p>
+        <div id="nav-ham">
+            <button class="hamburger">
+                <div class="three">
+                    <span class="span"></span>
+                    <span class="span"></span>
+                    <span class="span"></span>
+                </div>
+            </button>
         </div>
-
-        <img id="intro-3-img-1" src="images/DSCF2650.JPG" alt="highland car" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine"/>
-        <img id="intro-3-img-2" src="images/grand_roadtrip.PNG" alt="grand roadtrip map" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine"/>
-        <div id="intro-3" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
-            <p>Aside from the professional/academic me, I'm also a roadtrip lover.<br>
-                <br>
-                In the summer of 2018, I did a grand roadtrip across the US with my boyfriend, from 'Seattle, WA' to 'Ithaca, NY'
-            </p>
-        </div>
-
-        <div id="intro-4">
-            <p id="connect" data-aos="zoom-in-right" data-aos-offset="100" data-aos-easing="ease-in-sine">Welcome to stay connected:</p>
-        </div>
-        <a href="https://www.linkedin.com/in/meganwucornell/"><img id="intro-4-img-1" src="images/linkedin_circle_black-512.png" alt="linkedin" data-aos="zoom-in-right" data-aos-offset="100" data-aos-easing="ease-in-sine"/></a>
-        <a href="https://github.com/yw2242"><img id="intro-4-img-2" src="images/github_PNG58.png" alt="github" data-aos="zoom-in-right" data-aos-offset="100" data-aos-delay="300" data-aos-easing="ease-in-sine"/></a>
-        
-    
     </div>
 
 
+    <div class="content" class="container">
+
+        <div id="intro">
+            <p>Intro...</p>
+        </div>
+
+        <div class="projects">
+            <img class="screen" src="images/sp.png" alt="Social Profit"/>
+        </div>
+        <div class="projects">
+            <img class="screen right" src="images/assurant.png" alt="Assurant"/>
+        </div>
+        <div class="projects">
+            <img class="screen" src="images/CT.png" alt="ConnecTeam"/>
+        </div>
+        <div class="projects">
+            <img class="screen right" src="images/VANITY.png" alt="VANITY"/>
+        </div>
+        <div class="projects">
+            <img class="screen" src="images/biotech.png" alt="BioTech"/>
+        </div>
+        <div class="projects">
+            <img class="screen right" src="images/insDash.png" alt="Instructor Dashboard"/>
+        </div>
+        <div class="projects">
+            <img class="screen" src="images/" alt="McDonald's"/>
+        </div>
+    </div>
 
 
+    
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/aos.js"></script>
+
+    <!-- <script type="text/javascript" src="js/aos.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();

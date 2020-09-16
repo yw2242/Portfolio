@@ -1,34 +1,20 @@
-$( window ).on( "load", function() {
+$(document).ready(function () {
 
+  $('.hamburger').on('click', function () {
+    var x = document.getElementById("nav-menu");
+    var y = document.querySelectorAll(".three span:nth-child(1)");
+    var z = document.querySelectorAll(".three span:nth-child(3)");
 
-  // Wrap every letter in a span
-  $('.ml12').each(function(){
-    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-    });
-    
-    anime.timeline({loop: true})
-    .add({
-    targets: '.ml12 .letter',
-    translateX: [40,0],
-    translateZ: 0,
-    opacity: [0,1],
-    easing: "easeOutExpo",
-    duration: 2500,
-    delay: function(el, i) {
-      return 500 + 30 * i;
+    if (x.style.display === "inline") {
+      x.style.display = "none";
+      y.classList.remove("open");
+      z.classList.remove("open");
+      console.log("AHOO!")
+    } else {
+      x.style.display = "inline";
+      y.classList.add("open");
+      z.classList.add("open");
+
     }
-    }).add({
-    targets: '.ml12 .letter',
-    translateX: [0,-30],
-    opacity: [1,0],
-    easing: "easeInExpo",
-    duration: 1100,
-    delay: function(el, i) {
-      return 900 + 30 * i;
-    }
-    });
-    
-
+  });
 });
-
-
