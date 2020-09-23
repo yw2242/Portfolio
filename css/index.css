@@ -20,7 +20,7 @@ a {
   display: flex;
   top: 0;
   position: sticky;
-  height: 115px;
+  height: 100px;
 }
 
 
@@ -69,8 +69,8 @@ a {
 
 
 #nav-menu {
-  margin-top: 5%;
-  margin-right: 0;
+  margin-top: 4.5%;
+  margin-right: -5%;
   flex: 2;
   display: none;
 }
@@ -202,16 +202,79 @@ a {
 
 
 #intro {
+  padding-top: 5%;
+  padding-left: 7%;
+  padding-bottom: 5%;
+  font-size: 33px;
 }
 
 
 .screen {
-  margin-top: 40%;
-  width: 60%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 6%;
+  width: 55%;
   display: inline;
 }
 
 
 .right {
-  right: 0;
+ float: right;
+}
+
+
+h2 {
+  font-family: 'Gaegu', monospace;
+  display: inline;
+  position: absolute;
+  margin-top: 14%;
+  margin-left: -5%;
+  font-size: 30px;
+}
+
+
+p {
+  font-family: 'Gaegu', monospace;
+}
+
+
+.cap {
+  font-family: 'Gaegu', monospace;
+  display: inline;
+  position: absolute;
+  margin-top: 18%;
+  margin-left: -5%;
+  font-size: 18px;
+  width: 40%;
+}
+
+
+button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 9px 23px;
+  border: none;
+  border-radius: 32px;
+  background-color: white;
+  font-family: 'Gaegu', monospace;
+  letter-spacing: 1.5px;
+}
+
+
+button:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+
+#footer {
+  position: sticky;
+  color: gray;
+  width: 100%;
+  margin: 100px 20px 20px;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Gaegu', monospace;
 }
