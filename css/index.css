@@ -21,6 +21,7 @@ a {
   top: 0;
   position: sticky;
   height: 100px;
+  z-index: 3;
 }
 
 
@@ -106,7 +107,7 @@ a {
 /* Hambuger Nav */
 
 
-.three {
+.horizontal {
   width: 32px;
   height: 20px;
   -webkit-transform: rotate(0deg);
@@ -121,7 +122,7 @@ a {
 }
 
 
-.three span {
+.horizontal span {
   display: block;
   margin-top: 7.5px;
   margin-bottom: 7.5px;
@@ -165,7 +166,7 @@ a {
   transform-origin: left center;
 } */
   
-.three.open span:nth-child(1) {
+.horizontal .open span:nth-child(1) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -174,12 +175,12 @@ a {
   left: 8px;
 }
   
-.three.open span:nth-child(2) {
+.horizontal .open span:nth-child(2) {
   width: 0%;
   opacity: 0;
 }
   
-.three.open span:nth-child(3) {
+.horizontal .open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
@@ -212,7 +213,7 @@ a {
 .screen {
   margin-top: 5%;
   margin-bottom: 10%;
-  margin-left: 6%;
+  margin-left: 5%;
   width: 55%;
   display: inline;
 }
@@ -220,6 +221,7 @@ a {
 
 .right {
  float: right;
+ margin-right: 5%;
 }
 
 
@@ -227,7 +229,7 @@ h2 {
   font-family: 'Gaegu', monospace;
   display: inline;
   position: absolute;
-  margin-top: 14%;
+  margin-top: 15%;
   margin-left: -5%;
   font-size: 30px;
 }
@@ -242,10 +244,88 @@ p {
   font-family: 'Gaegu', monospace;
   display: inline;
   position: absolute;
-  margin-top: 18%;
-  margin-left: -5%;
+  margin-top: 20%;
+  margin-left: 3%;
   font-size: 18px;
+  width: 33%;
+}
+
+
+.h2-right {
+  text-align: right;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 30%;
+}
+
+
+.cap-right {
+  text-align: right;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 35%;
+  width: 33%;
+}
+
+
+.three {
+  margin-top: 11%;
+  margin-left: -5%;
+}
+
+
+.cap-three {
+  margin-top: 16%;
+  margin-left: 3%;
+}
+
+
+.four {
+  margin-top: 7%;
+  margin-left: 14%;
+}
+
+
+.cap-four {
+  margin-top: 12%;
+  margin-left: 3%;
+}
+
+
+.five {
   width: 40%;
+  margin-top: 10%;
+  margin-left: -1%;
+}
+
+
+.cap-five {
+  margin-top: 18%;
+  margin-left: 3%;
+}
+
+
+.six {
+  margin-top: 20%;
+  margin-left: 16%;
+}
+
+
+.cap-six {
+  margin-top: 25%;
+  margin-left: 3%;
+}
+
+
+.seven {
+  margin-top: %;
+  margin-left: %;
+}
+
+
+.cap-seven {
+  margin-top: %;
+  margin-left: 3%;
 }
 
 
