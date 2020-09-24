@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio | MW</title>
+
+    <link rel="stylesheet" href="css/bio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
+
+    <!-- jQuery & Other Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <link rel="icon" type="image/png" href="images/MW-logo.PNG">
+
+</head>
+<body>
+
+
+    <header>
+        <img id="logo" src="images/MW-logo.PNG" alt="LOGO";/>
+        <h2 id="logo-text">Megan Wu</h2>
+        <nav>
+            <div id="menuToggle">
+
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+    
+            <ul id="menu">
+                <a class="nav-list" href="index.html"><li>Portfolio</li></a>
+                <a class="nav-list" href="bio.html"><li>Bio</li></a>
+                <a class="nav-list" href="gallery.html"><li>Gallery</li></a>
+            </ul>
+        </nav>
+    </header>
+
+        <!-- <div id="zero"> -->
+
+        </div>
+
+        <div class="row" id="seven">
+            <div class="column pic">
+                <img class="center" src="images/assurant dds.gif" alt="Assurant Digital Design System" onclick="document.getElementById('modal7').style.display='block'">
+                <div id="modal7" class="modal" onclick="this.style.display='none'">
+                    <span class="modal-close">&times;</span>
+                    <div class="modal-content animate-zoom">
+                    <img src="images/assurant dds.gif" style="width:100%">
+                    </div>
+                </div>
+            </div>
+            <div class="column content">
+                <p class="title"><strong>Digital Design System</strong><br>
+                    <em>Assurant + Cornell University Capstone Project</em></p><br>
+                <br>
+                <p>• Programmed code snippets (HTML, CSS & JavaScript) of UI components such as buttons, dropdown menu, switches, and sliders, for the Digital Design System leveraged by developers<br>
+                    • Collaborated with UX designers and project manager to perform project scope & risk analysis<br>
+                    • Showcased the works at a poster session</p>
+            </div>
+        </div>
+
+        <div class="row" id="six">
+            <div class="column pic">
+                <img class="center" src="images/bis.PNG" alt="Cornell BioTech" onclick="document.getElementById('modal6').style.display='block'"><br>
+                <div id="modal6" class="modal" onclick="this.style.display='none'">
+                    <span class="modal-close">&times;</span>
+                    <div class="modal-content animate-zoom">
+                    <img src="images/bis.PNG" style="width:100%">
+                    </div>
+                </div>
+                <button id="bt" onclick="window.open('https://cornell.digication.com/biotech08/home-1')" type="button">Launch</button>
+            </div>
+            <div class="column content">
+                <p class="title"><strong>BioTech Business Analysis</strong><br>
+                    <em>Created visualizations for financial data to analyze the operations at Cornell Biotechnology Resource Center (BRC)</em></p><br>
+                <br>
+                <p>• Initiated Data Dictionary in the ETL documentation<br>
+                    • Utilized Dimensional Model to organize financial data and turnaround time<br>
+                    • Rendered various financial & turnaround-time graphics on Tableau and integrated them to a dashboard that displayed all the information</p>
+            </div>
+
+        </div>
+
+        <div class="row" id="five">
+            <div class="column pic">
+                <img class="center" src="images/dashboard.gif" alt="Dashboard" onclick="document.getElementById('modal5').style.display='block'">
+                <div id="modal5" class="modal" onclick="this.style.display='none'">
+                    <span class="modal-close">&times;</span>
+                    <div class="modal-content animate-zoom">
+                    <img src="images/dashboard.gif" style="width:100%">
+                    </div>
+                </div>
+            </div>
+            <div class="column content">
+                <p class="title"><strong>Instructor Dashboard</strong><br>
+                <em>An R-Shiny system with intuitive UI elements for educators to analyze class performance</em></p><br>
+                <br>
+                <p>• Sketched up an UI layout for the instructor dashboard<br>
+                    • Implemented the sketch into a functional UI using R-Shiny/HTML<br>
+                    • Polished the UI to best represent the given data by data engineers</p>
+            </div>
+
+        </div>
+
+        <div class="row" id="four">
+            <div class="column pic">
+                <img class="center" src="images/plantpal.gif" alt="PlantPal" onclick="document.getElementById('modal4').style.display='block'"><br>
+                <div id="modal4" class="modal" onclick="this.style.display='none'">
+                    <span class="modal-close">&times;</span>
+                    <div class="modal-content animate-zoom">
+                    <img src="images/plantpal.gif" style="width:100%">
+                    </div>
+                </div>
+                <button id="pp" onclick="window.open('https://myplantpal.herokuapp.com/')" type="button">Launch</button>
+            </div>
+            <div class="column content">
+                <p class="title"><strong>PlantPal</strong><br>
+                <em>Developed a virtual gardening assistant application</em></p><br>
+                <br>
+                <p>• Utilized React.js to build pop-up modals for note sections of each plant<br>
+                    • Created responsive buttons of each plant that will add the plant to the garden page<br>
+                    • Designed the layout of garden page using CSS & React.js</p>
+            </div>
+
+        </div>
+
+        <div class="row" id="three">
+            <div class="column pic">
+                <img class="center" src="images/cinememes.gif" alt="CineMemes" onclick="document.getElementById('modal3').style.display='block'"><br>
+                <div id="modal3" class="modal" onclick="this.style.display='none'">
+                    <span class="modal-close">&times;</span>
+                    <div class="modal-content animate-zoom">
+                    <img src="images/cinememes.gif" style="width:100%">
+                    </div>
+                </div>
+                <button id="cm" onclick="window.open('https://yw2242.github.io/GroupProject1/')" type="button">Launch</button>
+            </div>
+            <div class="column content">
+                <p class="title"><strong>CineMemes</strong><br>
+                <em>Built an integrated platform that provided movie information and housed a discussion forum for viewers</em></p><br>
+                <br>
+                <p>• Researched and utilized APIs to display web contents from Reddit</p>
+            </div>
+
+        </div>
+
+        <div class="row" id="two">
+            <div class="column pic">
+                <img class="center" src="images/mealshare.gif" alt="MealShare" onclick="document.getElementById('modal2').style.display='block'"><br>
+                <div id="modal2" class="modal" onclick="this.style.display='none'">
+                    <span class="modal-close">&times;</span>
+                    <div class="modal-content animate-zoom">
+                    <img src="images/mealshare.gif" style="width:100%">
+                    </div>
+                </div>
+                <button id="ms" onclick="window.open('https://meal-share-app.herokuapp.com/')" type="button">Launch</button>
+            </div>
+            <div class="column content">
+                <p class="title"><strong>MealShare</strong><br>
+                <em>Created a food-sharing application to reduce food waste</em></p><br>
+                <br>
+                <p>• Implemented a website that populated its content from a MySQL database<br>
+                    • Researched backend API routes to ensure the functionality of the site</p>
+            </div>
+
+        </div>
+
+        <div class="row" id="one">
+            <div class="column pic">
+                <img class="center" src="images/HCI Poster.PNG" alt="HCI poster" onclick="document.getElementById('modal1').style.display='block'">
+                <div id="modal1" class="modal" onclick="this.style.display='none'">
+                    <span class="modal-close">&times;</span>
+                    <div class="modal-content animate-zoom">
+                    <img src="images/HCI Poster.PNG" style="width:100%">
+                    </div>
+                </div>
+            </div>
+            <div class="column content">
+                <p class="title"><strong>ConnecTeam</strong><br>
+                <em>Designed a team management application for students to find teammates faster and collaborate easily</em></p><br>
+                <br>
+                <p>• Conducted user interviews and collected usability feedbacks to refine the design for the application<br>
+                    • Created affinity diagrams and analyzed user data to further improve the application<br>
+                    • Built applications prototypes under various levels of fidelity (low, mid and high)</p>
+            </div>
+        </div>
+    
+    <footer id="footer">copyright &copy; 2020 by Megan Wu</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha256-ABrLsV2caVEMCBfm3eNhv/CYQG+tGCqzw2f4b/Pag0M=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js" integrity="sha256-v/YsEqWkVsiNHryCWg+vjC/eDBakMAgOsCJRa0kNPOg=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/portfolio.js"></script>
+
+</body>
+</html>

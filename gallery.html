@@ -6,44 +6,52 @@
     <title>Gallery | MW</title>
 
     <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
-
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap" rel="stylesheet"> 
     <!-- jQuery & Other Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-    <link rel="icon" type="image/png" href="images/MW-logo.PNG">
+    <link rel="icon" type="image/png" href="images/MW-logo5.PNG">
 
 </head>
 <body>
 
 
-    <header>
-        <img id="logo" src="images/MW-logo.PNG" alt="LOGO";/>
-        <h2 id="logo-text">Megan Wu</h2>
-        <nav>
-            <div id="menuToggle">
+    <div id="nav" class="container">
+        <div id="nav-logo">
+            <a href="index.html">
+                <img id="logo" src="images/MW-logo5.PNG" alt="LOGO"/> <h1 id="logo-text">Megan Wu</h1>
+            </a>
+        </div>
+        <div class="empty"></div>
+        <div id="nav-menu">
+            <div id="menu">
+                <a class="nav-list" href="index.html">Portfolio</a>
+                <a class="nav-list" href="bio.html">Bio</a>
+                <a style="color: black;" class="nav-list" href="gallery.html">Gallery</a>
+            </div>
+        </div>
+        <div id="nav-ham">
+            <button class="hamburger">
+                <div class="horizontal">
+                    <span class="span"></span>
+                    <span class="span"></span>
+                    <span class="span"></span>
+                </div>
+            </button>
+        </div>
+    </div>
 
-                <input type="checkbox" />
 
-                <span></span>
-                <span></span>
-                <span></span>
+
+
+        <footer id="footer">Copyright 2020 &copy; Megan Wu</footer>
+
+    </div>
+
     
-            <ul id="menu">
-                <a class="nav-list" href="index.html"><li>Portfolio</li></a>
-                <a class="nav-list" href="bio.html"><li>Bio</li></a>
-                <a class="nav-list" href="gallery.html"><li>Gallery</li></a>
-            </ul>
-        </nav>
-    </header>
-
-
-
-    
-    <footer id="footer">copyright &copy; 2020</footer>
     <script type="text/javascript" src="js/gallery.js"></script>
+
 
 </body>
 </html>
