@@ -6,8 +6,8 @@
 
 a {
   text-decoration: none;
-  display: inline;
   margin: 0;
+  display: inline-block;
 }
 
 
@@ -20,35 +20,22 @@ a {
   display: flex;
   top: 0;
   position: sticky;
-  height: 100px;
-  z-index: 3;
+  z-index: 2;
+  text-align: right;
+  /* height: 100px; */
 }
 
 
-.empty {
+/* .empty {
   flex: 2;
-}
+} */
 
 
 #logo {
-  width: 7%;
-  margin: 7% 6% 0 20%; 
-  display: inline-block;
-  flex: 2;
-}
-
-
-#logo-text {
-  letter-spacing: 3px;
-  font-family: 'Gaegu', cursive;
-  color:gray;
+  width: 6%;
+  position: absolute;
+  margin: 1.5% 0 0 2.5%; 
   display: inline;
-  text-decoration: none;
-}
-
-
-#nav-logo {
-  display: inline-block;
 }
 
 
@@ -70,9 +57,9 @@ a {
 
 
 #nav-menu {
-  margin-top: 4.5%;
-  margin-right: 0%;
-  flex: 2;
+  margin-top: 4%;
+  right: 2%;
+  position: absolute;
   /* display: none; */
 }
 
@@ -81,10 +68,8 @@ a {
   text-decoration: none;
   color: gray;
   transition: color 0.3s ease;
-  margin: 5%;
-  text-align: right;
   font-size: 22px;
-  display: inline;
+  margin-bottom: 15%;
 }
 
 .nav-list:hover {
@@ -193,6 +178,7 @@ a {
 /* Nav ended */
 
 
+
 .content {
   display: block;
   background-color: #efe7e3;
@@ -203,8 +189,8 @@ a {
 
 
 #intro {
-  padding-top: 5%;
-  padding-left: 7%;
+  padding-top: 10%;
+  padding-left: 10%;
   padding-bottom: 5%;
   font-size: 33px;
 }
@@ -213,15 +199,15 @@ a {
 .screen {
   margin-top: 5%;
   margin-bottom: 10%;
-  margin-left: 5%;
-  width: 55%;
+  margin-left: 8%;
+  width: 50%;
   display: inline;
 }
 
 
 .right {
  float: right;
- margin-right: 5%;
+ margin-right: 12%;
 }
 
 
@@ -229,7 +215,7 @@ h2 {
   font-family: 'Gaegu', monospace;
   display: inline;
   position: absolute;
-  margin-top: 15%;
+  margin-top: 14%;
   margin-left: -5%;
   font-size: 30px;
 }
@@ -247,7 +233,7 @@ p {
   margin-top: 20%;
   margin-left: 3%;
   font-size: 18px;
-  width: 33%;
+  width: 30%;
 }
 
 
@@ -255,16 +241,16 @@ p {
   text-align: right;
   position: absolute;
   margin-left: 10%;
-  margin-top: 30%;
+  margin-top: 27%;
 }
 
 
 .cap-right {
   text-align: right;
   position: absolute;
-  margin-left: 3%;
-  margin-top: 35%;
-  width: 33%;
+  margin-left: 5%;
+  margin-top: 33%;
+  width: 30%;
 }
 
 
@@ -275,8 +261,8 @@ p {
 
 
 .cap-three {
-  margin-top: 16%;
-  margin-left: 3%;
+  margin-top: 17%;
+  margin-left: 2%;
 }
 
 
@@ -287,7 +273,7 @@ p {
 
 
 .cap-four {
-  margin-top: 12%;
+  margin-top: 13%;
   margin-left: 3%;
 }
 
@@ -295,12 +281,12 @@ p {
 .five {
   width: 40%;
   margin-top: 10%;
-  margin-left: -1%;
+  margin-left: -2%;
 }
 
 
 .cap-five {
-  margin-top: 18%;
+  margin-top: 20%;
   margin-left: 3%;
 }
 
@@ -312,7 +298,7 @@ p {
 
 
 .cap-six {
-  margin-top: 25%;
+  margin-top: 26%;
   margin-left: 3%;
 }
 
