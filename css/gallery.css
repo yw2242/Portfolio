@@ -22,13 +22,14 @@ a {
     position: sticky;
     z-index: 2;
     text-align: right;
+    height: 0;
 }
 
 
 #logo {
-    width: 3%;
+    width: 6%;
     position: absolute;
-    margin: 3% 0 0 3%; 
+    margin: 1.5% 0 0 2.5%; 
     display: inline;
 }
 
@@ -185,7 +186,71 @@ transform-origin: left center;
 }
 
 
+h1 {
+    padding: 8% 0 5% 13%;
+}
 
+
+.row {
+    margin-left: 22%;
+}
+
+
+ /* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 10%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+    width: 100%;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    width: 70%;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+
+#expandedImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+
+/* Closable button inside the image */
+/* .closebtn {
+    position: absolute;
+    color: inherit;
+    font-size: 35px;
+    cursor: pointer;
+}  */
 
 
 #footer {

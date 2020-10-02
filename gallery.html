@@ -17,7 +17,7 @@
 <body>
 
 
-    <div id="nav" class="container">
+    <div id="nav">
         <div id="nav-logo">
             <a href="index.html">
                 <img id="logo" src="images/MW-logo5.PNG" alt="LOGO"/>
@@ -44,6 +44,33 @@
 
     <div class="content">
 
+        <div>
+            <h1>Paintings</h1>
+
+            <div class="container">
+                <!-- <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> -->
+                <img id="expandedImg" src="images/Drawings/05AA8EB8-F649-4D6F-88C4-637488065061.png">
+                <!-- <div id="imgtext"></div> -->
+            </div>
+            <div class="row">
+                <div class="column">
+                <img src="images/Drawings/05AA8EB8-F649-4D6F-88C4-637488065061.png" alt="sunset" style="width:100%" onclick="img(this);">
+                </div>
+                <div class="column">
+                <img src="images/Drawings/1FCEC41A-644D-484A-876F-EE46A7824966.png" alt="harbor" style="width:100%" onclick="img(this);">
+                </div>
+                <div class="column">
+                <img src="images/Drawings/6A51F872-CD93-4572-8559-B67D8BDB1B4A 2.png" alt="portrait" style="width:100%" onclick="imgV(this);">
+                </div>
+                <div class="column">
+                <img src="images/Drawings/70D732AB-6AF8-45CB-81B0-8B5046EEFAF6.png" alt="seattle" style="width:100%" onclick="img(this);">
+                </div>
+                <div class="column">
+                <img src="images/Drawings/A2043C49-7B91-4977-9837-ACE5FB507F90.png" alt="seagull" style="width:100%" onclick="imgV(this);">
+                </div>
+            </div>
+
+        </div>
 
 
         <footer id="footer">Copyright 2020 &copy; Megan Wu</footer>
@@ -51,7 +78,27 @@
     </div>
 
     
-    <script type="text/javascript" src="js/gallery.js"></script>
+    <script>
+        function img(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          var imgText = document.getElementById("imgtext");
+          expandImg.src = imgs.src;
+        //   imgText.innerHTML = imgs.alt;
+          expandImg.style.width = "65%";
+          expandImg.style.display = "block";
+          expandImg.style.marginLeft = "auto";
+          expandImg.style.marginRight = "auto";
+        }
+
+        function imgV(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          expandImg.src = imgs.src;
+          expandImg.style.width = "30%";
+          expandImg.style.marginLeft = "45%";
+          expandImg.style.display = "block";
+        }
+    </script>
+    <!-- <script type="text/javascript" src="js/gallery.js"></script> -->
 
 
 </body>

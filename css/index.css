@@ -22,7 +22,7 @@ a {
   position: sticky;
   z-index: 2;
   text-align: right;
-  /* height: 100px; */
+  height: 0;
 }
 
 

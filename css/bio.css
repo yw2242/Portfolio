@@ -22,13 +22,14 @@ a {
     position: sticky;
     z-index: 2;
     text-align: right;
+    height: 0;
 }
 
 
 #logo {
-    width: 3%;
+    width: 6%;
     position: absolute;
-    margin: 3% 0 0 3%; 
+    margin: 1.5% 0 0 2.5%; 
     display: inline;
 }
 
@@ -188,14 +189,14 @@ transform-origin: left center;
 #profile {
     margin-left: 13%;
     margin-top: 5%;
-    width: 30%;
+    width: 27%;
     display: inline;
+    /* transform: rotate(20deg); */
 }
 
 
 #pro-h2 {
     display: inline;
-    z-index: 2;
     position: absolute;
     margin-top: 15%;
     margin-left: -2%;
@@ -204,7 +205,6 @@ transform-origin: left center;
 
 #pro-p {
     display: inline;
-    z-index: 2;
     position: absolute;
     margin-top: 20%;
     margin-left: 4%;
