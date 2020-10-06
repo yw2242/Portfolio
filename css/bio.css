@@ -228,12 +228,13 @@ h1 {
 
 .skills {
     display: flex;
-    justify-content: center;
 }
+
 
 ul {
     margin: 4%;
     margin-bottom: 0;
+    width: 25%;
 }
 
 
