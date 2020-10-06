@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Gaegu', monospace;
 }
 
 
@@ -191,15 +192,22 @@ h1 {
 }
 
 
+.tab-gallery {
+    margin-left: 20%;
+}
+
+
 .row {
-    margin-left: 22%;
+    align-items: center;
+    display: block;
+    margin-left: 6.6%;
 }
 
 
  /* The grid: Four equal columns that floats next to each other */
 .column {
     float: left;
-    width: 10%;
+    width: 11%;
     padding: 10px;
 }
 
@@ -223,24 +231,26 @@ h1 {
 
 /* The expanding image container (positioning is needed to position the close button and the text) */
 .container {
-    width: 70%;
+    width: 75%;
+    align-items: center;
 }
 
 /* Expanding image text */
-#imgtext {
+/* #imgtext {
     position: absolute;
     bottom: 15px;
     left: 15px;
     color: white;
     font-size: 20px;
-}
+} */
 
 
 #expandedImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 65%;
+    width: 75%;
+    align-items: center;
 }
 
 
