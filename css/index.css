@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Gaegu', monospace;
 }
 
 
@@ -335,11 +336,17 @@ button:hover {
 }
 
 
+#below {
+  height: 30%;
+}
+
+
 #footer {
   position: sticky;
   color: gray;
   width: 100%;
-  margin: 100px 20px 20px;
+  margin: 50% 1.7% 1.7%;
+  /* margin: 100px 20px 20px; */
   font-size: 14px;
   text-align: center;
   font-family: 'Gaegu', monospace;

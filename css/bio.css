@@ -222,7 +222,8 @@ transform-origin: left center;
 
 
 h1 {
-    margin-left: 3%;
+    margin-left: 2%;
+    margin-bottom: 5%;
 }
 
 
@@ -232,8 +233,7 @@ h1 {
 
 
 ul {
-    margin: 4%;
-    margin-bottom: 0;
+    margin: 0 4% 0;
     width: 25%;
 }
 

@@ -188,7 +188,12 @@ transform-origin: left center;
 
 
 h1 {
-    padding: 8% 0 5% 13%;
+    padding: 8% 0 3% 13%;
+}
+
+
+p {
+    padding: 0 0 7% 13%;
 }
 
 
