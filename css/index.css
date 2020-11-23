@@ -5,37 +5,24 @@
 }
 
 
-a {
-  text-decoration: none;
-  margin: 0;
-  display: inline-block;
-}
-
-
 #nav {
-  background-color: #efe7e3;
-  border-top: 20px solid #fff;
-  border-left: 20px solid #fff;
-  border-right: 20px solid #fff;
+  border-top: 10px solid #fff;
+  border-left: 25px solid #fff;
+  border-right: 25px solid #fff;
   font-family: 'Gaegu', monospace;
-  display: flex;
-  top: 0;
-  position: sticky;
-  z-index: 2;
+  background-color: white;
   text-align: right;
-  height: 0;
+  display: block;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
-
-
-/* .empty {
-  flex: 2;
-} */
 
 
 #logo {
-  width: 6%;
-  position: absolute;
-  margin: 1.5% 0 0 2.5%; 
+  width: 10%;
+  margin: 0;
   display: inline;
 }
 
@@ -52,32 +39,30 @@ a {
 } */
 
 
-#menu {
-  display: inline;
-}
-
-
-#nav-menu {
-  margin-top: 4%;
-  right: 2%;
-  position: absolute;
-  /* display: none; */
-}
-
-
 .nav-list {
   text-decoration: none;
+  border: none;
+  border-radius: 5px 5px 0 0;
   color: gray;
+  background-color: #efe7e3;
   transition: color 0.3s ease;
   font-size: 22px;
-  margin-bottom: 15%;
+  padding: 12px 25px;
 }
 
-.nav-list:hover {
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.inact:hover {
   -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
   -webkit-mask-size: 200%;
   animation: shine 2s infinite;
 }
+
 
 @-webkit-keyframes shine {
   from {
@@ -179,18 +164,22 @@ a {
 /* Nav ended */
 
 
+.clear {
+  clear: both;
+}
+
 
 .content {
   display: block;
   background-color: #efe7e3;
-  border-left: 20px solid #fff;
-  border-right: 20px solid #fff;
-  border-bottom: 20px solid #fff;
+  border-left: 25px solid #fff;
+  border-right: 25px solid #fff;
+  border-bottom: 25px solid #fff;
 }
 
 
 #intro {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-left: 10%;
   padding-bottom: 5%;
   font-size: 33px;
@@ -316,7 +305,7 @@ p {
 }
 
 
-button {
+.launch {
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -329,7 +318,7 @@ button {
 }
 
 
-button:hover {
+.launch:hover {
   -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
   -webkit-mask-size: 200%;
   animation: shine 2s infinite;
