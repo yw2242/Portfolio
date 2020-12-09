@@ -47,7 +47,7 @@
   background-color: #efe7e3;
   transition: color 0.3s ease;
   font-size: 22px;
-  padding: 12px 25px;
+  padding: 5px 19px 10px;
 }
 
 
@@ -174,7 +174,7 @@ a {
   background-color: #efe7e3;
   border-left: 25px solid #fff;
   border-right: 25px solid #fff;
-  border-bottom: 25px solid #fff;
+  border-bottom: 15px solid #fff;
 }
 
 
@@ -205,8 +205,8 @@ h2 {
   font-family: 'Gaegu', monospace;
   display: inline;
   position: absolute;
-  margin-top: 14%;
-  margin-left: -5%;
+  margin-top: 10%;
+  margin-left: 4%;
   font-size: 30px;
 }
 
@@ -220,8 +220,8 @@ p {
   font-family: 'Gaegu', monospace;
   display: inline;
   position: absolute;
-  margin-top: 20%;
-  margin-left: 3%;
+  margin-top: 16%;
+  margin-left: 4%;
   font-size: 18px;
   width: 30%;
 }
@@ -230,78 +230,30 @@ p {
 .h2-right {
   text-align: right;
   position: absolute;
-  margin-left: 10%;
-  margin-top: 27%;
+  margin-left: 4%;
+  margin-top: 10%;
+  width: 30%;
+  font-size: 30px;
 }
 
 
 .cap-right {
   text-align: right;
   position: absolute;
-  margin-left: 5%;
-  margin-top: 33%;
+  margin-left: 4%;
+  margin-top: 16%;
+  font-size: 18px;
   width: 30%;
 }
 
 
-.three {
-  margin-top: 11%;
-  margin-left: -5%;
+.link {
+
 }
 
 
-.cap-three {
-  margin-top: 17%;
-  margin-left: 2%;
-}
-
-
-.four {
-  margin-top: 7%;
-  margin-left: 14%;
-}
-
-
-.cap-four {
-  margin-top: 13%;
-  margin-left: 3%;
-}
-
-
-.five {
-  width: 40%;
-  margin-top: 10%;
-  margin-left: -2%;
-}
-
-
-.cap-five {
-  margin-top: 20%;
-  margin-left: 3%;
-}
-
-
-.six {
-  margin-top: 20%;
-  margin-left: 16%;
-}
-
-
-.cap-six {
-  margin-top: 26%;
-  margin-left: 3%;
-}
-
-
-.seven {
-  margin-top: %;
-  margin-left: %;
-}
-
-
-.cap-seven {
-  margin-top: %;
-  margin-left: 3%;
+.link-right {
+  
 }
 
 
@@ -329,7 +281,7 @@ p {
   position: sticky;
   color: gray;
   width: 100%;
-  margin: 50% 1.7% 1.7%;
+  margin: 50% 1.7% 0.8%;
   /* margin: 100px 20px 20px; */
   font-size: 14px;
   text-align: center;
