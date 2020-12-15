@@ -170,7 +170,7 @@ transform-origin: left center;
 
 
 h1 {
-    padding: 8% 0 3% 13%;
+    padding: 5% 0 3% 13%;
 }
 
 
@@ -239,6 +239,23 @@ p {
     width: 75%;
     align-items: center;
 }
+
+
+.lens {
+    width: 49.5%;
+    display: inline-block;
+    margin: -4px;
+    border: none;
+    outline: 16px solid rgba(0,0,0,.1);
+    outline-offset: -16px;
+}
+
+
+/* img {
+    border: none;
+    outline: 16px solid rgba(0,0,0,.5);
+    /* outline-offset: -10px; */
+} */
 
 
 /* Closable button inside the image */

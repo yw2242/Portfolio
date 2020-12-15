@@ -181,7 +181,7 @@ a {
 #intro {
   padding-top: 5%;
   padding-left: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
   font-size: 33px;
 }
 
@@ -213,6 +213,7 @@ h2 {
 
 p {
   font-family: 'Gaegu', monospace;
+  font-size: 25px;
 }
 
 
@@ -248,12 +249,22 @@ p {
 
 
 .link {
-
+  display: inline;
+  position: absolute;
+  margin-top: 24%;
+  margin-left: 4%;
+  font-size: 18px;
+  width: 30%;
 }
 
 
 .link-right {
-  
+  text-align: right;
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 24%;
+  font-size: 18px;
+  width: 30%;
 }
 
 
