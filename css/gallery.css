@@ -241,30 +241,67 @@ p {
 }
 
 
-.lens {
-    width: 49.5%;
-    display: inline-block;
-    margin: -4px;
-    border: none;
-    outline: 16px solid rgba(0,0,0,.1);
-    outline-offset: -16px;
+.grid {
+    margin-left: 3.5px;
+    width: 100%;
 }
 
 
-/* img {
-    border: none;
-    outline: 16px solid rgba(0,0,0,.5);
-    /* outline-offset: -10px; */
+.lens {
+    width: 50%;
+    display: inline;
+    margin: -3.5px;
+    outline: 16px solid rgba(0,0,0,.1);
+    outline-offset: -16px;
+    transition: all .2s;
+}
+
+
+/* .lens::before, .lens::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 16px solid rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    will-change: border;
+}
+
+
+.lens::after {
+    border-width: 0;
+  }
+
+
+.lens:hover::before {
+    outline: 16px solid rgba(0,0,0,.1);
+    outline-offset: -16px;
+    border-width: 16px;
+}
+
+
+.lens:hover::after {
+    outline: 32px solid rgba(0,0,0,.1);
+    outline-offset: -32px;
+    border-width: 32px;
 } */
 
 
-/* Closable button inside the image */
-/* .closebtn {
-    position: absolute;
-    color: inherit;
-    font-size: 35px;
-    cursor: pointer;
-}  */
+.work {
+    display: inline-block;
+    width: 25%;
+    margin: 2%;
+}
+
+
+.works {
+    text-align: center;
+    margin: auto;
+}
+
 
 
 #footer {
