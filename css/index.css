@@ -5,6 +5,19 @@
 }
 
 
+@media screen and (min-width: 980px) /* Desktop */ {
+
+}
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+
+}
+
+
 #nav {
   border-top: 10px solid #fff;
   border-left: 25px solid #fff;
@@ -249,9 +262,10 @@ p {
 
 
 .link {
+  color: tomato;
   display: inline;
   position: absolute;
-  margin-top: 36%;
+  margin-top: 33%;
   margin-left: 4%;
   font-size: 18px;
   width: 30%;
@@ -259,10 +273,11 @@ p {
 
 
 .link-right {
+  color: tomato;
   text-align: right;
   position: absolute;
   margin-left: 4%;
-  margin-top: 38%;
+  margin-top: 34%;
   font-size: 18px;
   width: 30%;
 }

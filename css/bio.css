@@ -47,6 +47,8 @@
 a {
     text-decoration: none;
     display: inline-block;
+    pointer-events: auto !important;  
+    cursor: pointer !important;
 }
 
 
@@ -57,13 +59,13 @@ a {
 }
 
 @-webkit-keyframes shine {
-from {
-    -webkit-mask-position: 150%;
-}
+    from {
+        -webkit-mask-position: 150%;
+    }
 
-to {
-    -webkit-mask-position: -50%;
-}
+    to {
+        -webkit-mask-position: -50%;
+    }
 }
 
 
@@ -215,8 +217,8 @@ h1 {
 
 
 ul {
-    margin: 0 4% 0;
-    width: 25%;
+    margin: 0 4% 4%;
+    width: 35%;
 }
 
 
@@ -268,11 +270,27 @@ h5 {
 }
 
 
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+
+#psu {
+    color: orange;
+}
+
+
+#psu:hover {
+    color: tomato;
+}
+
+
 #footer {
     position: sticky;
     color: gray;
     width: 100%;
-    margin: 100px 20px 10px;
+    margin: 50% 1.7% 0.8%;
     font-size: 14px;
     text-align: center;
     font-family: 'Gaegu', monospace;
