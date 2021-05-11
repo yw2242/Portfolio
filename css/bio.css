@@ -5,6 +5,11 @@
 }
 
 
+@media screen  and (max-width: 979px) /* Tablet */ {
+    
+}
+
+
 #nav {
     border-top: 10px solid #fff;
     border-left: 25px solid #fff;

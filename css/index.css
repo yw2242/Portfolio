@@ -11,6 +11,30 @@
 
 @media screen  and (max-width: 979px) /* Tablet */ {
 
+  .clear {
+    clear: none;
+  }
+
+  .right {
+    float: none;
+  }
+  
+  #intro {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .screen {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+
+  h2 p .cap .h2-right .cap-right .link .link-right {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 500px) /* Mobile */ {
@@ -262,7 +286,7 @@ p {
 
 
 .link {
-  color: tomato;
+  color: rosybrown;
   display: inline;
   position: absolute;
   margin-top: 33%;
@@ -273,7 +297,7 @@ p {
 
 
 .link-right {
-  color: tomato;
+  color: rosybrown;
   text-align: right;
   position: absolute;
   margin-left: 4%;
