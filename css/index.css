@@ -5,43 +5,6 @@
 }
 
 
-@media screen and (min-width: 980px) /* Desktop */ {
-
-}
-
-@media screen  and (max-width: 979px) /* Tablet */ {
-
-  .clear {
-    clear: none;
-  }
-
-  .right {
-    float: none;
-  }
-  
-  #intro {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .screen {
-    display: block;
-    margin: 0 auto;
-    width: 70%;
-  }
-
-
-  h2 p .cap .h2-right .cap-right .link .link-right {
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 500px) /* Mobile */ {
-
-}
-
-
 #nav {
   border-top: 10px solid #fff;
   border-left: 25px solid #fff;
@@ -288,7 +251,6 @@ p {
 .link {
   color: rosybrown;
   display: inline;
-  /* position: absolute; */
   margin-top: 33%;
   margin-left: 4%;
   font-size: 18px;
@@ -307,7 +269,7 @@ p {
 }
 
 
-.launch {
+/* .launch {
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -324,7 +286,7 @@ p {
   -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
   -webkit-mask-size: 200%;
   animation: shine 2s infinite;
-}
+} */
 
 
 #footer {
@@ -336,4 +298,33 @@ p {
   font-size: 14px;
   text-align: center;
   font-family: 'Gaegu', monospace;
+}
+
+
+@media screen and (min-width: 980px) /* Desktop */ {
+
+}
+
+@media screen and (min-width: 600px) /* Tablet */ {
+
+  /* .projects {
+    display: inline-block;
+  }
+
+  .screen {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+
+  h2 p .cap .h2-right .cap-right .link .link-right {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  } */
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+
 }
